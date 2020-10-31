@@ -1,0 +1,165 @@
+/***** BASE STYLES *****/
+body {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/***** GRID *****/
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+.section-one, .section-two, .section-three {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  float: left;
+  height: 195px;
+  padding-top: 15px;
+}
+
+.section-one {
+  margin: 0;
+  width: 400px;
+}
+
+.section-two {
+  width: 350px;
+}
+
+.section-three {
+  width: 350px;
+}
+
+.left-float {
+   float: left;
+}
+
+.right-float {
+   float: right;
+}
+
+.clear-float {
+   clear: both;
+}
+
+
+/***** HEADER SECTION *****/
+
+header {
+  padding-top: 25px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 30pt;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #77a466
+}
+
+header nav {
+  color: #77a466;
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 35px;
+  text-transform: uppercase;
+  word-spacing: 25px;
+}
+
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+
+/*****TOP SECTION*****/
+
+.top-section {
+  padding-bottom: 0px;
+}
+
+.main-image img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  margin-top: 30px;
+  width: 1175px;
+}
+
+.main-title {
+  width: 1175px;
+}
+
+.main-title h3 {
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.main-title p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+/******BOTTOM SECTION*****/
+
+.bottom-section {
+  overflow: auto;
+}
+
+.section-one h4, .section-two h4, .section-three h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.section-one p {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.section-two {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.section-two p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.section-three {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.section-three p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+/******FOOTER SECTION*****/
+
+.foot-note h4 {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.foot-note span {
+  color: #77a466;
+  font-family: 'Galada', cursive;
+  font-size: 16px;
+  text-transform: lowercase;
+}
